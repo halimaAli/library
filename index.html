@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Libary</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="shortcut icon" href="favicons.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header" id="myHeader">
+      <ul>
+        <li>
+          <a href="https://www.theodinproject.com">The Odin Project</a>
+        </li>
+        <li><a href="https://github.com/halimaAli">About me</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <img src="Library.jpg" alt="" />
+      <div class="wrapper">
+        <h1 class="title">
+          "Have you really read all those books in your room?"
+        </h1>
+        <div class="info">
+          Use this website to become a librarian to your very own library. You
+          can either add or remove a book from your collection and also mark a
+          book as 'read'.
+        </div>
+        <div>
+          <div class="mouse_scroll">
+            <div class="mouse">
+              <div class="wheel"></div>
+            </div>
+            <div>
+              <span class="m_scroll_arrows unu"></span>
+              <span class="m_scroll_arrows doi"></span>
+              <span class="m_scroll_arrows trei"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="collection">
+      <div class="data-input">
+        <div class="content">
+          <h2>Add new book data</h2>
+          <div class="input-fields">
+            <div class="text-fields">
+              <label for="title">title:</label>
+              <label for="author">author:</label>
+              <label for="numPages">Number of pages:</label>
+            </div>
+            <div class="input">
+              <input type="text" id="title" name="title" />
+              <input type="text" id="author" name="author" />
+              <input type="text" id="numPages" name="numPages" />
+            </div>
+          </div>
+          <button class="buttons submit">submit</button>
+        </div>
+      </div>
+      <h2 class="text">Your book collection</h2>
+      <div class="cards-wrapper">
+        <div class="card">
+          <div class="data book-title">example title</div>
+          <div class="data book-author">example author</div>
+          <div class="data book-numPages">example amount of pages</div>
+          <button class="buttons update remove">Remove</button>
+          <button class="buttons update change-status">Not Read</button>
+        </div>
+      </div>
+      <div class="edit-button">
+        <button class="buttons add">Add Book</button>
+      </div>
+    </div>
+    <div class="footer">© Halima Ali // The Odin Project</div>
+  </body>
+</html>
